@@ -1,0 +1,230 @@
+/* reset so that adjusting is easier */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar */
+
+.topnav li{
+    display: inline;
+    float: left;
+}
+
+nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.topnav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.topnav a:hover{
+    background-color: #111111
+}
+
+/* cover page */
+
+.coverpage {
+    width: auto;
+    height: 1080px;
+    position: relative;
+    background-image: url(./images/yoda.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    padding-bottom: 20px;
+}
+
+.coverpage h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 160px;
+    padding-right: 60px;
+}
+
+/* skills time! */
+
+#life-title{
+    margin: auto;
+    width: 40%;
+    padding: 20px 0px;
+    text-align:center;
+    border-bottom: black solid;
+}
+
+#life-title h2{
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.life{
+    margin: auto;
+    width: 70%;
+}
+
+.contain{
+    padding: 40px 30px;
+    margin: 40px 0px; 
+    border-radius: 100px;
+    border-color: grey;
+    border-style: solid;
+    overflow:hidden
+
+}
+
+.imagey{
+    float:left;
+    height: auto;
+    width: 45%;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+.imagey img{
+    max-width: 100%;
+    border-radius: 30px;
+    height:auto;
+}
+
+
+.text {
+    font-family:Arial;
+    float: right;
+    width: 55%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.text h4{
+    font-size: 30px;
+    color: green;
+}
+
+.text h5{
+    padding: 30px 0;
+    font-size: 25px;
+    color: red;
+    
+}
+
+.text p{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+/* Philosophy */
+
+#n2n {
+    width: auto;
+    height:1300px;
+    position: relative;
+    background-image: url(./images/0198.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    padding-bottom: 20px;
+}
+
+
+
+.values{
+    padding-top: 60px;
+    text-align:center;
+    color:white;
+}
+
+.values h2{
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: 700px;
+    padding-bottom: 30px;
+}
+
+.values p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 1000px;
+}
+
+/* skills column */
+
+#skill-title{
+    padding-bottom: 40px;
+}
+
+#skill-title h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.skill{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contain1{
+    float: left;
+    margin: 0 2px;
+    width: 31%;
+    box-sizing: border-box;
+    border: solid grey 2px;
+}
+
+.image1{
+    padding: 5px 5px;
+}
+
+.image1 img{
+    object-fit:contain;
+    width: 100%;
+    height: auto;
+}
+
+.text1{
+    padding: 5px 10px;
+}
+
+.text1 h3{
+    text-align: center;
+    font-family: Arial;
+    font-size:40px;
+    margin-bottom: 20px;
+}
+
+.desc{
+    font-family:Arial;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.afternote{
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
